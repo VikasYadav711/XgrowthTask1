@@ -39,7 +39,7 @@ app.get('/DBentry', (req, res) => {
       const jsondata = JSON.parse(data);
   
       //Inserting values to the User table 
-      connection.query('INSERT INTO user (name, email) VALUES ?', [jsondata.users.map(user => [user.name, user.email])], (err, result) => {
+      connection.query('INSERT INTO user (id, name, email) VALUES ?', [jsondata.users.map(user => [user.id, user.name, user.email])], (err, result) => {
         if(err) 
         {
           console.error('Error inserting data into user table: ' + err);
