@@ -1,0 +1,19 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Vivek Singh",
+        "email": "vsingh@gmail.com",
+        "address": "Rewa",
+        "phone": "8675678903"
+      },
+      {
+        "id": 2,
+        "name": "Shivansh Tiwari",
+        "email": "shivanshti@gmail.com",
+        "address": "Meja Prayagraj",
+        "phone": "9800043210"
+      }
+    ]
+  }
+  

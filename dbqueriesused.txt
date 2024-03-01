@@ -1,0 +1,14 @@
+create database users;
+use users;
+create table user;
+drop table user;
+select * from user;
+CREATE table User(id numeric(5) PRIMARY key,name varchar(60), email varchar(60));
+select * from user;
+CREATE table user_information(id numeric(5) PRIMARY key,name varchar(60), addr varchar(60), phone numeric(10));
+select * from user_information;
+select * from user;
+alter table user_information drop primary key;
+alter table user drop primary key;
+drop table user;
+drop table user_information;
