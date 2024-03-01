@@ -8,3 +8,5 @@ Create a GET API endpoint that reads data from a given JSON file and inserts it 
 
 To insert the details in user and user_information table of database [/DBentry](/DBentry)
 - Insert the details from `userdata.json` present locally in the system.
+
+- The APIs route and code exist in the file `insertuserdetail.js `.
